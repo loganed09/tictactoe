@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Nosifer', cursive;
+    background-color: black;
+}
+
+.buttonDiv {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.button {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 2px;
+    background-color: black;
+    border: 1px solid darkred;
+    font-size: 24px;
+    font-family: 'Nosifer', cursive;
+    color: orange;
+}
+
+h1 {
+    color: orange;
+}
+
+#a1 {
+    border-top: none;
+    border-left: none;
+}
+
+#a2 {
+    border-top: none;
+}
+
+#a3 {
+    border-right: none;
+    border-top: none;
+}
+
+#b1 {
+    border-left: none;
+}
+
+#b2 {
+  
+}
+
+
+#b3 {
+    border-right: none;
+}
+
+#c1 {
+    border-bottom: none;
+    border-left: none;
+}
+
+#c2 {
+    border-bottom: none;
+}
+
+#c3 {
+    border-bottom: none;
+    border-right: none;
+}
+
+.red {
+    color: darkred;
+}
+
+p{
+    font-size: 32px;
+}
+
+#winner {
+    color: darkred;
+    font-size: 60px;
+} 
+
+#message{
+    color: orange;
+}
+
+#reset {
+    margin: 50px;
+    background-color: black;
+    font-family: 'Nosifer', cursive;
+    color: orange;
+    background-color: black;
+    border: 1px solid darkred;
+    border-radius: 40px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+#reset:hover {
+    color: red;
+    background-color: orange;
+}
+
+#reset:active {
+    transform: scale(.98);
+    box-shadow: 3px 2px 22px 1px orange;
+}
+
