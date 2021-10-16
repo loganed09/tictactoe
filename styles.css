@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    font-size: 28px;
 }
 
 body {
@@ -22,7 +22,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
 }
 
 .buttonDiv {
@@ -115,6 +114,7 @@ p{
     border-radius: 2.5rem;
     transition: 0.2s all;
     cursor: pointer;
+    font-size: .8rem;
 }
 
 #reset:hover {
