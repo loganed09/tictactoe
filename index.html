@@ -11,23 +11,25 @@
             <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
         </header>
         <main>
-            <h1>Tic <span class="red">Tac</span> Toe</h1>
-            <div class="buttonDiv">
-                <button id="a1" class="button" onclick="swapBox1(); determineWinner();">-</button>
-                <button id="a2" class="button" onclick="swapBox2(); determineWinner();">-</button>
-                <button id="a3" class="button" onclick="swapBox3(); determineWinner();">-</button>
-                <button id="b1" class="button" onclick="swapBox4(); determineWinner();">-</button>
-                <button id="b2" class="button" onclick="swapBox5(); determineWinner();">-</button>
-                <button id="b3" class="button" onclick="swapBox6(); determineWinner();">-</button>
-                <button id="c1" class="button" onclick="swapBox7(); determineWinner();">-</button>
-                <button id="c2" class="button" onclick="swapBox8(); determineWinner();">-</button>
-                <button id="c3" class="button" onclick="swapBox9(); determineWinner();">-</button>
-            </div>
-            <div class="buttonDiv2">
-                <button id="reset" onclick="reset()">Respawn</button>
-            </div>
-            <!-- <h3><button id="determineWinner" onclick="determineWinner()"></button></h3> -->
-            <p><span id="winner"></span><span id="message"></span></p>
+            <section class="game">
+                <h1>Tic <span class="red">Tac</span> Toe</h1>
+                <div class="buttonDiv">
+                    <button id="a1" class="button" onclick="swapBox1(); determineWinner();">-</button>
+                    <button id="a2" class="button" onclick="swapBox2(); determineWinner();">-</button>
+                    <button id="a3" class="button" onclick="swapBox3(); determineWinner();">-</button>
+                    <button id="b1" class="button" onclick="swapBox4(); determineWinner();">-</button>
+                    <button id="b2" class="button" onclick="swapBox5(); determineWinner();">-</button>
+                    <button id="b3" class="button" onclick="swapBox6(); determineWinner();">-</button>
+                    <button id="c1" class="button" onclick="swapBox7(); determineWinner();">-</button>
+                    <button id="c2" class="button" onclick="swapBox8(); determineWinner();">-</button>
+                    <button id="c3" class="button" onclick="swapBox9(); determineWinner();">-</button>
+                </div>
+                <div class="buttonDiv2">
+                    <button id="reset" onclick="reset()">Respawn</button>
+                </div>
+                <!-- <h3><button id="determineWinner" onclick="determineWinner()"></button></h3> -->
+                <p><span id="winner"></span><span id="message"></span></p>
+            </section> 
         </main>
         <script src="./ticTacToe.js"></script>
     </body>
